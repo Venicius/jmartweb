@@ -1727,14 +1727,14 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #fcd3c8;
+  background-color: #d3e630;
 }
 
 .table-primary th,
 .table-primary td,
 .table-primary thead th,
 .table-primary tbody + tbody {
-  border-color: #f9ad99;
+  border-color: #d3e630;
 }
 
 .table-hover .table-primary:hover {
@@ -1743,7 +1743,7 @@ pre code {
 
 .table-hover .table-primary:hover > td,
 .table-hover .table-primary:hover > th {
-  background-color: #fbc0b0;
+  background-color: #d3e630;
 }
 
 .table-secondary,
@@ -2615,14 +2615,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #fecb00;
+  border-color: #fecb00;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
+  background-color: #fecb00;
+  border-color: #fecb00;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2908,8 +2908,8 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #fecb00;
+  border-color: #fecb00;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -5305,7 +5305,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #fecb00;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
