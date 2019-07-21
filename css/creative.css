@@ -48,6 +48,22 @@
   box-sizing: border-box;
 }
 
+#rudr_instafeed{
+  list-style:none  
+}
+#rudr_instafeed li{
+  float:left;
+  width:200px;
+  height:200px;
+  margin:10px
+}
+#rudr_instafeed li img{
+  max-width:100%;
+  max-height:100%;
+}
+
+
+
 html {
   font-family: sans-serif;
   line-height: 1.15;
@@ -10757,5 +10773,13 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+header {
+  padding: 156px 0 100px;
+}
+
+section {
+  padding: 150px 0;
 }
 
