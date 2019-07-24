@@ -10618,6 +10618,12 @@ hr.divider {
   border-color: #000000;
 }
 
+hr.divider-white {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: #ffffff;
+}
+
 hr.light {
   border-color: #fff;
 }
