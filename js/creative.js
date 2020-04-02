@@ -60,13 +60,13 @@
 
 var token = '8050756577.63902cb.94c3037c42d246e98e8f89e6604ae0d1',
 //var token = '1362124742.7b33a8d.6613a3567f0a425f9852055b8ef743b7',
-  num_photos = 8,
+  num_photos = 9,
   container = document.getElementById( 'rudr_instafeed' ),
   scrElement = document.createElement( 'script' );
 
 window.mishaProcessResult = function( data ) {
 for( x in data.data ){
-  container.innerHTML += '<div class="col col-md-4 col-sm-6 col-xs-6"> <a target="_blank" href="'+data.data[x].link+'"> <img class="img-responsive portifolio" width="250" height="250" src="'+data.data[x].images.standard_resolution.url+'"/></a></div>';
+  container.innerHTML += '<div class="col col-md-4 col-sm-6 col-xs-6"> <a target="_blank" href="'+data.data[x].link+'"> <img class="img-responsive portifolio" width="300" height="300" src="'+data.data[x].images.standard_resolution.url+'"/></a></div>';
   console.log(data.data[x]);
   /*'<li><div class="col-lg-4" style="width: 18rem;"><img class="card-img-top" src="' + data.data[x].images.low_resolution.url + '"></li></div>';*/
 }
