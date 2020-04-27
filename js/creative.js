@@ -59,7 +59,6 @@
 
 
 var token = '8050756577.63902cb.94c3037c42d246e98e8f89e6604ae0d1',
-//var token = '1362124742.7b33a8d.6613a3567f0a425f9852055b8ef743b7',
   num_photos = 9,
   container = document.getElementById( 'rudr_instafeed' ),
   scrElement = document.createElement( 'script' );
